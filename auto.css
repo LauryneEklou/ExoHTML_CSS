@@ -1,0 +1,10 @@
+p{
+    margin:auto;
+    width: 200px; 
+    padding: 12px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+body{
+    background-color: blanchedalmond;
+}

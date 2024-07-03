@@ -1,0 +1,7 @@
+body{
+    background: url(azure.jpg) fixed,top right,fixed ;
+}
+p{
+    background-color: rgb(60, 60, 199);
+    opacity: 1; 
+}

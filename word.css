@@ -1,0 +1,7 @@
+
+    .conteneur {
+        width: 200px;
+        border: 1px solid #000;
+        overflow-wrap: break-word; /* Nouvelle propriété recommandée */
+        word-wrap: break-word; /* Propriété pour compatibilité */
+    }

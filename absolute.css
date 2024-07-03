@@ -1,0 +1,27 @@
+.element1{
+    right: 50px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    width: 20%;
+    height: 20%;
+    background-color: pink;
+}
+.element2{
+    right: 25px;
+    position: absolute;
+    bottom:0px;
+    z-index: 2;
+    width: 20%;
+    height: 20%;
+    background-color: aqua;
+}
+.element3{
+    right: 50px;
+    position: absolute;
+    bottom:0px;
+    z-index: 2;
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}

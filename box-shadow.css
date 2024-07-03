@@ -1,0 +1,8 @@
+p{
+    box-shadow: 6px 6px 0px pink  inset;
+    text-shadow: 4px 4px 2px red;
+
+}
+a:visited{
+    color: black;
+}

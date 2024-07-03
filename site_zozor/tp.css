@@ -1,0 +1,188 @@
+body{
+    padding: 0%;
+    background-color: rgba(255, 228, 196, 0.925);
+}
+nav{
+    display: inline-block;
+    width: 740px;
+    height: 50px;
+    text-align: right;
+    margin-top: 3%;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+   
+}
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.858);
+    padding-bottom: 3px;
+
+}
+nav a:hover{
+    color: rgb(237, 97, 97);
+
+}
+ 
+header{
+    display: flex;
+    height: 150px;
+
+}
+hr{
+    border: 0;
+    height: 2px; 
+    background-color: #333;
+    margin: 20px 0;
+}
+h4{
+    padding-top: 0%;
+}
+header h1
+{
+font-family: 'BallparkWeiner', serif;
+font-size: 2.5em;
+font-weight: normal;
+}
+header h4{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.text{
+    display: inline-block;
+}
+.bridgePt{
+    background-image: url(pont.jpg);
+    height: 200px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    background-size: cover; 
+    background-position: center;
+}
+.pont{
+    display: flex;
+    padding-top: 11%;
+    padding-left: 2%;
+    
+}
+h5{
+    columns: white;
+}
+.voir{
+    margin-left: 70%;
+    padding-top: 3%;
+}
+.deux{
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.image img{
+    margin-left: 33%;
+}
+.paragraphe{
+    width: 85%;
+    height: 50%;
+    margin-right: 20px;
+   
+}
+.auteur{
+    width:40%;
+    height: 20%;
+    background-color: gray;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: white;
+}
+.h2{
+    padding-left: 15%;
+    padding-right: auto;
+}
+.logo{
+    display: flex;
+    margin-left: 5px;
+}
+.logo div{
+    margin-left: 10%;
+}
+.description p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    border:none;
+    width: 100px; 
+    height: 30px;
+    margin-bottom: 100%;
+}
+footer{
+    height: 100%;
+    display: flex;
+}
+.tweet{
+    border:3px solid black;
+    width: 27%;
+    padding-left: 1%;
+    margin-left: 2%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+.divphoto{
+    border:3px solid black;
+    width: 27%;
+    margin-left: 2%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+.photoaligner{
+    display: flex;
+}
+.photoaligner div{
+    padding-left: 2%;
+}
+.mespt h3{
+    padding-left: 2%;
+}
+.amis{
+    display: flex;
+    color:rgb(209, 85, 85);
+}
+.derniere{
+    border:3px solid black;
+    width: 27%;
+    margin-left: 2%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+.derniere h3{
+    padding-left: 2%;
+}
+.btn h5{
+    color: white;
+}
