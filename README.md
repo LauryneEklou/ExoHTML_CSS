@@ -6,14 +6,19 @@ Les notions suivantes m'ont permies de résoudre les différents exercices en HT
  La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_l_image.png").
 	Il existe des options disponible pour le fond telles que:
 2.1. background-attachment : fixer le fond
+
   	-fixed : l'image de fond reste fixe ;
    
  	-scroll : l'image de fond défile avec le texte (par défaut).
 
 2.2. background-repeat : répétition du fond
+
 	 -no-repeat : le fond ne sera pas répété. L'image sera donc unique 	sur la page.
+  
 	 -repeat-x : le fond sera répété uniquement sur la première ligne, 	horizontalement.
+  
 	 -repeat-y : le fond sera répété uniquement sur la première colonne, verticalement.
+  
  	 -repeat : le fond sera répété en mosaïque (par défaut).
 
 2.3. background-position : position du fond
