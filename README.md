@@ -62,21 +62,21 @@ Elle se fait avec la  propriété opacity.
 
 5.CREATION D'APPARENCES DYNAMIQUES
 
--Au survol:avec la propriété hover.
+-Au survol : avec la propriété hover.
 
--Active:Quand le visiteur clique sur le lien.
+-Active : Quand le visiteur clique sur le lien.
 
--visited: Quand le visiteur a déjà vu la page concernée.
+-visited : Quand le visiteur a déjà vu la page concernée.
 
 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 
-- display: block; les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
+- display : block; les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
   
--display:inline; Eléments d'une ligne. Se placent les uns à côté des autres.
+-display : inline; Eléments d'une ligne. Se placent les uns à côté des autres.
 
--display: inline-block; Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
+-display : inline-block; Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
 
--display:none; Eléments non affichés.
+-display : none; Eléments non affichés.
 
 7.LES POSITIONNEMENTS absolu, fixe, relatif 
 7.1 Le positionnement absolu : il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
