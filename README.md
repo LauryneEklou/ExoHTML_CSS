@@ -7,6 +7,7 @@ Les notions suivantes m'ont permies de résoudre les différents exercices en HT
 	Il existe des options disponible pour le fond telles que:
 2.1. background-attachment : fixer le fond
   	-fixed : l'image de fond reste fixe ;
+   
  	-scroll : l'image de fond défile avec le texte (par défaut).
 
 2.2. background-repeat : répétition du fond
