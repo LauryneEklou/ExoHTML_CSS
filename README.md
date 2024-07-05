@@ -88,3 +88,30 @@ descend plus bas dans la page.
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer
 quel élément doit apparaître au-dessus des autres.
+
+9.LES TABLES
+
+-Colspan : pour fusionner les cellules d'une table
+
+-rowspan : pour fusionner les lignes d'une table
+
+10.LES FORMULAIRES
+
+-les champs texte
+
+-les champs de type checkbox
+
+-les champs de type radio
+
+-la balise select pour une liste d'options
+
+-les boutons submit et reset
+
+ 11-LES MEDIA
+
+ sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
+ tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
+ vous pourrez augmenter la taille du texte, changer la couleur de fond, positionner différemment votre menu dans certaines
+ résolutions, etc.
+ 
+ 
