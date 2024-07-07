@@ -64,7 +64,7 @@ Elle se fait avec la  propriété opacity.
  
 ***Exemple d'utilisation***
 
-     `p{opacity: 0.6; }`
+     ``p{opacity: 0.6; }``
 ------   
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
