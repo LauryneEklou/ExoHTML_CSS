@@ -43,7 +43,7 @@ Il existe des options disponible pour le fond telles que:
 background-image: url("nom_de_image.png");
 background-repeat: no-repeat;`
 }
-`
+
 ### 2.3. background-position : position du fond
 * ***top***: en haut 
 * ***bottom***: en bas 
