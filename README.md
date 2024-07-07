@@ -112,7 +112,9 @@ Les différents types de bordures:
 
   `a:visited
   {
+  
   color: #AAA;
+  
   }`
 ===
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
