@@ -2,7 +2,7 @@
  Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
     En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
-===
+====================================================================================
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
@@ -147,7 +147,7 @@ Les différents types de bordures:
  `
 * ***display : none;*** Eléments non affichés.
  
-`nav
+  `nav
 {
  display: inline-block;
 }
