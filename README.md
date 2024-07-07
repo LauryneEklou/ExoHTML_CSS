@@ -91,7 +91,7 @@ Les différents types de bordures:
      {
      border-radius: 10px;
      }
-    `
+     `
     
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
