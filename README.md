@@ -66,7 +66,7 @@ Elle se fait avec la  propriété opacity.
     {
     opacity: 0.6;
     }`
-=====
+     =====
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
 * solid
@@ -78,6 +78,7 @@ Les différents types de bordures:
 * inset
 * outset
  Ainsi, pour avoir une bordure bleue, en tirets, épaisse de 3 pixels autour de mes titres, je vais écrire :
+
  `h1
 {
  border: 3px blue dashed;
@@ -113,7 +114,7 @@ Les différents types de bordures:
  {
  color: #AAA;
  }`
-====
+===
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
  
