@@ -171,11 +171,11 @@ descend plus bas dans la page.
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
 
-    ` element
-    {
-    position: relatif;
-    }
-    `
+` element
+{
+position: relatif;
+}
+`
 
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
 
