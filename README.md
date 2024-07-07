@@ -2,7 +2,7 @@
  Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
  En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
-=======
+===
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
@@ -46,6 +46,7 @@ background-repeat: no-repeat;`
 * ***center***: centré
 * ***right***: à droite. 
 ***Exemple d'utilisation***
+  
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
  `background-position: top right; `
@@ -102,6 +103,7 @@ Les différents types de bordures:
 }`
 * ***visited***: Quand le visiteur a déjà vu la page.concernée. Vous pouvez changer cette apparence avec :visited (qui signifie « visité »). En pratique, sur les liens consultés, on ne peut
  pas changer beaucoup de choses à part la couleur.
+
 `a:visited
  {
  color: #AAA;
