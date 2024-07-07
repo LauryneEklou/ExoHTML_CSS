@@ -1,5 +1,5 @@
 # **Cours HTML CSS**
- Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
+Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
 En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
 
@@ -53,17 +53,18 @@ background-repeat: no-repeat;
  
 ***Exemple d'utilisation***
   
- Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
+Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
- ` background-position: top right;`
+` background-position: top right;`
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
-1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut. 
+1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut.
 2. ***Avec une valeur de 0***, l'élément sera totalement transparent.
- 
-***Exemple d'utilisation***
 
-     ``p{opacity: 0.6; }``
+ ***Exemple d'utilisation***
+
+`p{opacity: 0.6; }`
+
 ------   
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
@@ -178,26 +179,25 @@ position: relatif;
 `
 
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
-
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
 
-    `element
-    {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-    }
-    element2
-    {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    z-index: 2;
-    }
-    `
+`element
+ {
+ position: absolute;
+ right: 0px;
+ bottom: 0px;
+ z-index: 1;
+  }
+  element2
+  {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  z-index: 2;
+  }`
+    
 ----
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
