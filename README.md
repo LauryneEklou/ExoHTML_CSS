@@ -56,7 +56,7 @@ background-repeat: no-repeat;
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
     `background-position: top right; `
-===
+
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
 1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut. 
@@ -96,7 +96,7 @@ Les différents types de bordures:
     border-radius: 10px;
     }
     `
-===
+    
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
  
@@ -180,7 +180,7 @@ Permet de décaler l'élément par rapport à sa position normale.
     position: relatif;
     }
     `
-===
+
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
 
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
