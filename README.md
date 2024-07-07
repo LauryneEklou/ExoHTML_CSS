@@ -210,7 +210,7 @@ Cette cellule est la fusion de deux cellules .
 `<td rowspan"2">`
 Cette cellule est la fusion de deux lignes . 
 ===
-## 10.LES FORMULAIRES
+ ## 10.LES FORMULAIRES
 * les champs texte
 * 
 `<input type="text" />`
