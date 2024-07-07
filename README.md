@@ -55,8 +55,7 @@ background-repeat: no-repeat;
   
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
-    ` background-position: top right`
-
+    ` background-position: top right;`
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
 1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut. 
