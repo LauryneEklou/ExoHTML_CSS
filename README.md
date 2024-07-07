@@ -5,6 +5,7 @@
 =======
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
+
 ` body
  {
 background-image: url("nom_de_image.png");
@@ -54,6 +55,7 @@ Elle se fait avec la  propriété opacity.
 1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut. 
 2. ***Avec une valeur de 0***, l'élément sera totalement transparent.
 ***Exemple d'utilisation***
+
 `p
  {
  opacity: 0.6;
@@ -77,6 +79,7 @@ Les différents types de bordures:
 ### 4.1 bordures arroundies
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
+ 
 `p
  {
  border-radius: 10px;
@@ -84,6 +87,7 @@ Les différents types de bordures:
 ====
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
+ 
 `a:hover
 {
 }
@@ -91,6 +95,7 @@ Les différents types de bordures:
 :hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
 * ***Active***: Quand le visiteur clique sur le lien.
  On peut par exemple changer la couleur de fond du lien lorsque l'on clique dessus :
+
 `a:active
 {
  background-color: #FFCC66;
@@ -104,18 +109,19 @@ Les différents types de bordures:
 ====
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
+ 
 `a
  {
  display: block;
  }`
 * ***display : inline;*** Eléments d'une ligne. Se placent les uns à côté des autres.
-* 
+ 
 `nav, section
  {
  display: inline;
  }`
 * ***display : inline-block;*** Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
-* 
+
 `nav
  {
  display: inline-block;
@@ -124,7 +130,7 @@ Les différents types de bordures:
  vertical-align: top;
  }`
 * ***display : none;*** Eléments non affichés.
-* 
+ 
 `nav
 {
  display: inline-block;
