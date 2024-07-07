@@ -87,11 +87,11 @@ Les différents types de bordures:
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
-    `p
-     {
-     border-radius: 10px;
-     }
-     `
+`p
+{
+border-radius: 10px;
+}
+`
     
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
