@@ -64,8 +64,8 @@ Elle se fait avec la  propriété opacity.
  
 ***Exemple d'utilisation***
 
-    `p
-    {
+   `p
+   {
     opacity: 0.6;
     }`
 ------   
