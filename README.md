@@ -69,7 +69,7 @@ Elle se fait avec la  propriété opacity.
     opacity: 0.6;
     }
     `
-===
+------   
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
 * solid
