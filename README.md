@@ -152,7 +152,7 @@ Les différents types de bordures:
  display: inline-block;
 }
 `
-====
+===
 ## 7.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 7.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
@@ -164,6 +164,7 @@ il nous permet de placer un élément n'importe où sur la page (en haut à gauc
 ### 7.2  Le positionnement fixe
 Identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on
 descend plus bas dans la page.
+
 ***Exemple d'utilisation***
 
 `element
@@ -177,7 +178,8 @@ Permet de décaler l'élément par rapport à sa position normale.
     `element
     {
     position: relatif;
-    }`
+    }
+    `
 ===
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
 
@@ -198,7 +200,8 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
     right: 30px;
     bottom: 30px;
     z-index: 2;
-    }`
+    }
+    `
 ===
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
