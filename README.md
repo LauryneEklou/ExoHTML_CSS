@@ -201,13 +201,18 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
 ----
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
+ 
 ***Exemple:***
+  
 `<td colspan="2">`
 Cette cellule est la fusion de deux cellules . 
 * ***rowspan***: pour fusionner les lignes d'une table .
+ 
 ***Exemple:***
 `<td rowspan"2">`
+
 Cette cellule est la fusion de deux lignes . 
+
 ===
  ## 10.LES FORMULAIRES
 * les champs texte
