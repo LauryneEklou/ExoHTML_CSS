@@ -175,7 +175,7 @@ descend plus bas dans la page.
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
 
-    `element
+    ` element
     {
     position: relatif;
     }
@@ -215,13 +215,13 @@ Cette cellule est la fusion de deux lignes .
 ===
  ## 10.LES FORMULAIRES
 * les champs texte
-* 
+ 
 `<input type="text" />`
 * les champs de type checkbox
-* 
+ 
 ` <input type="checkbox" />`
 * les champs de type radio
-* 
+ 
 `<input type='radio'/>`
 * la balise select pour une liste d'options
 ```
@@ -237,10 +237,10 @@ Cette cellule est la fusion de deux lignes .
 </select>
 ```
 * le bouton submit
-* 
+ 
 `<input type="submit" value="Envoyer" />`
 * le bouton reset
-* 
+ 
 ` <input type="reset" value="Annuler" />`
 ===
  ## 11-LES MEDIA
