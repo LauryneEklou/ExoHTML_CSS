@@ -1,7 +1,7 @@
 # **Cours HTML CSS**
  Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
- En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
+    En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
 ===
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
@@ -66,7 +66,7 @@ Elle se fait avec la  propriété opacity.
     {
     opacity: 0.6;
     }`
-     =====
+     ===
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
 * solid
@@ -91,7 +91,7 @@ Les différents types de bordures:
     {
     border-radius: 10px;
     }`
-====
+===
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
  
@@ -110,10 +110,10 @@ Les différents types de bordures:
 * ***visited***: Quand le visiteur a déjà vu la page.concernée. Vous pouvez changer cette apparence avec :visited (qui signifie « visité »). En pratique, sur les liens consultés, on ne peut
  pas changer beaucoup de choses à part la couleur.
 
-`a:visited
- {
- color: #AAA;
- }`
+  `a:visited
+  {
+  color: #AAA;
+  }`
 ===
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
@@ -165,11 +165,11 @@ descend plus bas dans la page.
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
 
-`element
-{
- position: relatif;
-}`
-====
+    `element
+    {
+    position: relatif;
+    }`
+===
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
 
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
@@ -190,7 +190,7 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
     bottom: 30px;
     z-index: 2;
     }`
-====
+===
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
 ***Exemple:***
