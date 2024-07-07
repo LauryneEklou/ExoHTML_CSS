@@ -64,10 +64,7 @@ Elle se fait avec la  propriété opacity.
  
 ***Exemple d'utilisation***
 
-   `p
-   {
-    opacity: 0.6;
-    }`
+     `p{opacity: 0.6; }`
 ------   
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
@@ -79,6 +76,7 @@ Les différents types de bordures:
 * ridge
 * inset
 * outset
+ 
  Ainsi, pour avoir une bordure bleue, en tirets, épaisse de 3 pixels autour de mes titres, je vais écrire :
 
  `h1
