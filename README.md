@@ -240,7 +240,7 @@ Cette cellule est la fusion de deux lignes .
  
   `<input type="submit" value="Envoyer" />`
 * le bouton reset
-* 
+ 
   `<input type="reset" value="Annuler" />`
 -----
  ## 11-LES MEDIA
