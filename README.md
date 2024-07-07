@@ -88,9 +88,9 @@ Les différents types de bordures:
  la taille (« l'importance ») de l'arrondi en pixels.
  
     `p
-    {
-    border-radius: 10px;
-    }
+     {
+     border-radius: 10px;
+     }
     `
     
 ## 5.CREATION D'APPARENCES DYNAMIQUES
