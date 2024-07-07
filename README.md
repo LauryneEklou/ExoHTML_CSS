@@ -53,7 +53,7 @@ background-repeat: no-repeat;`
   
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
- `background-position: top right; `
+    `background-position: top right; `
 ===
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
@@ -62,10 +62,10 @@ Elle se fait avec la  propriété opacity.
  
 ***Exemple d'utilisation***
 
- `p
-  {
-  opacity: 0.6;
-  }`
+    `p
+    {
+    opacity: 0.6;
+    }`
 =====
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
@@ -86,10 +86,10 @@ Les différents types de bordures:
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
-`p
- {
- border-radius: 10px;
- }`
+    `p
+    {
+    border-radius: 10px;
+    }`
 ====
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
@@ -175,20 +175,20 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
 
-`element
-{
- position: absolute;
- right: 0px;
- bottom: 0px;
- z-index: 1;
-}
- element2
-{
- position: absolute;
- right: 30px;
- bottom: 30px;
- z-index: 2;
-}`
+    `element
+    {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    }
+    element2
+    {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
+    }`
 ====
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
