@@ -41,7 +41,8 @@ Il existe des options disponible pour le fond telles que:
 {
 background-image: url("nom_de_image.png");
 background-repeat: no-repeat;`
-}`
+}
+`
 ### 2.3. background-position : position du fond
 * ***top***: en haut 
 * ***bottom***: en bas 
@@ -65,8 +66,9 @@ Elle se fait avec la  propriété opacity.
     `p
     {
     opacity: 0.6;
-    }`
-     ===
+    }
+    `
+===
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
 * solid
@@ -82,7 +84,8 @@ Les différents types de bordures:
  `h1
 {
  border: 3px blue dashed;
-}`
+}
+`
 ### 4.1 bordures arroundies
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
@@ -90,7 +93,8 @@ Les différents types de bordures:
     `p
     {
     border-radius: 10px;
-    }`
+    }
+    `
 ===
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover.
@@ -106,16 +110,16 @@ Les différents types de bordures:
 `a:active
 {
  background-color: #FFCC66;
-}`
+}
+`
 * ***visited***: Quand le visiteur a déjà vu la page.concernée. Vous pouvez changer cette apparence avec :visited (qui signifie « visité »). En pratique, sur les liens consultés, on ne peut
  pas changer beaucoup de choses à part la couleur.
 
   `a:visited
   {
-  
   color: #AAA;
-  
-  }`
+  }
+  `
 ===
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
@@ -129,7 +133,8 @@ Les différents types de bordures:
 `nav, section
  {
  display: inline;
- }`
+ }
+ `
 * ***display : inline-block;*** Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
 
 `nav
@@ -138,13 +143,15 @@ Les différents types de bordures:
  width: 150px;
  border: 1px solid black;
  vertical-align: top;
- }`
+ }
+ `
 * ***display : none;*** Eléments non affichés.
  
 `nav
 {
  display: inline-block;
-}`
+}
+`
 ====
 ## 7.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 7.1 Le positionnement absolu
@@ -245,6 +252,7 @@ Cette cellule est la fusion de deux lignes .
  `@media screen and (max-width: 1280px)
  {
  /* Rédigez vos propriétés CSS ici */
- }`
+ }
+ `
  
  
