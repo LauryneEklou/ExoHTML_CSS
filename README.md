@@ -109,11 +109,13 @@ Les différents types de bordures:
  display: block;
  }`
 * ***display : inline;*** Eléments d'une ligne. Se placent les uns à côté des autres.
+* 
 `nav, section
  {
  display: inline;
  }`
 * ***display : inline-block;*** Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
+* 
 `nav
  {
  display: inline-block;
@@ -122,6 +124,7 @@ Les différents types de bordures:
  vertical-align: top;
  }`
 * ***display : none;*** Eléments non affichés.
+* 
 `nav
 {
  display: inline-block;
@@ -139,6 +142,7 @@ il nous permet de placer un élément n'importe où sur la page (en haut à gauc
 Identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on
 descend plus bas dans la page.
 ***Exemple d'utilisation***
+
 `element
 {
  position: fixed;
@@ -146,6 +150,7 @@ descend plus bas dans la page.
 ### 7.3  Le positionnement relatif 
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
+
 `element
 {
  position: relatif;
@@ -156,6 +161,7 @@ Permet de décaler l'élément par rapport à sa position normale.
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
+
 `element
 {
  position: absolute;
@@ -183,10 +189,13 @@ Cette cellule est la fusion de deux lignes .
 ===
 ## 10.LES FORMULAIRES
 * les champs texte
+* 
 `<input type="text" />`
 * les champs de type checkbox
+* 
 ` <input type="checkbox" />`
 * les champs de type radio
+* 
 `<input type='radio'/>`
 * la balise select pour une liste d'options
 ```
@@ -202,8 +211,10 @@ Cette cellule est la fusion de deux lignes .
 </select>
 ```
 * le bouton submit
+* 
 `<input type="submit" value="Envoyer" />`
 * le bouton reset
+* 
 ` <input type="reset" value="Annuler" />`
 ===
  ## 11-LES MEDIA
