@@ -1,8 +1,9 @@
 # **Cours HTML CSS**
  Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
-   En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
-===
+En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
+
+--------
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
@@ -238,11 +239,11 @@ Cette cellule est la fusion de deux lignes .
 ```
 * le bouton submit
  
-`<input type="submit" value="Envoyer" />`
+  `<input type="submit" value="Envoyer" />`
 * le bouton reset
- 
-` <input type="reset" value="Annuler" />`
-===
+* 
+  `<input type="reset" value="Annuler" />`
+  ===
  ## 11-LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
