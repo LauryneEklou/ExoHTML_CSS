@@ -1,7 +1,6 @@
 # **Cours HTML CSS**
  Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
-
  En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
 =======
 ## **2.APPLIQUER UNE IMAGE DE FOND**
@@ -33,6 +32,7 @@ Il existe des options disponible pour le fond telles que:
 * ***repeat-y***: le fond sera répété uniquement sur la première colonne, verticalement.
 * ***repeat***: le fond sera répété en mosaïque (par défaut).
 ***Exemple d'utilisation***
+  
 ` body
 {
 background-image: url("nom_de_image.png");
@@ -46,8 +46,8 @@ background-repeat: no-repeat;`
 * ***right***: à droite. 
 ***Exemple d'utilisation***
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
- `background-position: top right;
- `
+
+ `background-position: top right; `
 =====
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
@@ -205,10 +205,8 @@ Cette cellule est la fusion de deux lignes .
 `<input type="submit" value="Envoyer" />`
 * le bouton reset
 ` <input type="reset" value="Annuler" />`
-
 ===
  ## 11-LES MEDIA
-
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
  vous pourrez augmenter la taille du texte, changer la couleur de fond, positionner différemment votre menu dans certaines
@@ -216,6 +214,7 @@ Cette cellule est la fusion de deux lignes .
 
   Je préfère personnellement pour des raisons pratiques à écrire ces règles dans le même fichier CSS que d'habitude.
  Dans ce cas, on écrit la règle dans le fichier .css comme ceci :
+ 
  `@media screen and (max-width: 1280px)
  {
  /* Rédigez vos propriétés CSS ici */
