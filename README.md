@@ -14,6 +14,7 @@ background-image: url("nom_de_image.png");
 Il existe des options disponible pour le fond telles que:
 ### 2.1. background-attachment
 * ***fixed***: l'image de fond reste fixe.
+ 
 ` body
  {
  background-image: url("nom_de_image.png");
@@ -21,6 +22,7 @@ Il existe des options disponible pour le fond telles que:
  }
  `
 * ***scroll***: l'image de fond défile avec le texte (par défaut).
+ 
 ` body
  {
  background-image: url("nom_de_image.png");
@@ -32,6 +34,7 @@ Il existe des options disponible pour le fond telles que:
 * ***repeat-x***: le fond sera répété uniquement sur la première ligne, horizontalement.
 * ***repeat-y***: le fond sera répété uniquement sur la première colonne, verticalement.
 * ***repeat***: le fond sera répété en mosaïque (par défaut).
+ 
 ***Exemple d'utilisation***
   
 ` body
@@ -44,23 +47,25 @@ background-repeat: no-repeat;`
 * ***bottom***: en bas 
 * ***left***: à gauche
 * ***center***: centré
-* ***right***: à droite. 
+* ***right***: à droite.
+ 
 ***Exemple d'utilisation***
   
  Il est possible de combiner ces mots. Par exemple, pour aligner une image en haut à droite, vous taperez :
 
  `background-position: top right; `
-=====
+===
 ## 3.LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
 1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut. 
 2. ***Avec une valeur de 0***, l'élément sera totalement transparent.
+ 
 ***Exemple d'utilisation***
 
-`p
- {
- opacity: 0.6;
- }`
+ `p
+  {
+  opacity: 0.6;
+  }`
 =====
 ## 4.  Les bordures et les ombres
 Les différents types de bordures:
