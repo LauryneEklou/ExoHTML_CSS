@@ -121,7 +121,7 @@ Les différents types de bordures:
   color: #AAA;
   }
   `
-===
+----
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
  
@@ -152,8 +152,7 @@ Les différents types de bordures:
 {
  display: inline-block;
 }
-`
-===
+----
 ## 7.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 7.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
@@ -203,7 +202,7 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
     z-index: 2;
     }
     `
-===
+----
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
 ***Exemple:***
@@ -243,7 +242,7 @@ Cette cellule est la fusion de deux lignes .
 * le bouton reset
 * 
   `<input type="reset" value="Annuler" />`
-  ===
+-----
  ## 11-LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
