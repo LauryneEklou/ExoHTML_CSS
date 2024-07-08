@@ -11,7 +11,8 @@ La propriété permettant d'indiquer une image de fond est background-image. Com
 body
 {
 background-image: url("nom_de_image.png");
-}```
+}
+```
 
 Il existe des options disponible pour le fond telles que:
 ### 2.1. background-attachment
