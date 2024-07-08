@@ -225,17 +225,17 @@ z-index: 2;
 * ***Colspan***: pour fusionner les cellules d'une table
  
 ***Exemple:***
-`html
+```html
 <td colspan="2">
- `
+ ```
 Cette cellule est la fusion de deux cellules .
  
 * ***rowspan***: pour fusionner les lignes d'une table .
  
 ***Exemple:***
-`html
+```html
 <td rowspan"2">
-`
+```
 Cette cellule est la fusion de deux lignes . 
 
  ## 10.LES FORMULAIRES
