@@ -8,10 +8,10 @@ En CSS, si vous appliquez un style à une balise, toutes les balises qui se trou
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
 ```css
- body
- {
+body
+{
 background-image: url("nom_de_image.png");
- }```
+}```
 
 Il existe des options disponible pour le fond telles que:
 ### 2.1. background-attachment
