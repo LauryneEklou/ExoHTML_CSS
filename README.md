@@ -222,7 +222,7 @@ Cette cellule est la fusion de deux lignes .
  
 `<input type='radio'/>`
 * la balise select pour une liste d'options
-```
+```html
 <select name="pays">
 <option value="france">France</option>
 <option value="espagne">Espagne</option>
