@@ -241,13 +241,19 @@ Cette cellule est la fusion de deux lignes .
  ## 10.LES FORMULAIRES
 * les champs texte
  
-`<input type="text" />`
+```html
+<input type="text" />
+```
 * les champs de type checkbox
  
-` <input type="checkbox" />`
+```html
+<input type="checkbox" />
+```
 * les champs de type radio
  
-`<input type='radio'/>`
+```html
+<input type='radio'/>
+```
 * la balise select pour une liste d'options
 ```html
 <select name="pays">
@@ -263,10 +269,14 @@ Cette cellule est la fusion de deux lignes .
 ```
 * le bouton submit
  
-  `<input type="submit" value="Envoyer" />`
+  ```html
+  <input type="submit" value="Envoyer" />
+  ```
 * le bouton reset
  
-  `<input type="reset" value="Annuler" />`
+  ```html
+  <input type="reset" value="Annuler" />
+  ```
 -----
  ## 11-LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
@@ -277,10 +287,11 @@ Cette cellule est la fusion de deux lignes .
   Je préfère personnellement pour des raisons pratiques à écrire ces règles dans le même fichier CSS que d'habitude.
  Dans ce cas, on écrit la règle dans le fichier .css comme ceci :
  
- `@media screen and (max-width: 1280px)
+ ```css
+@media screen and (max-width: 1280px)
  {
  /* Rédigez vos propriétés CSS ici */
  }
- `
+ ```
  
  
