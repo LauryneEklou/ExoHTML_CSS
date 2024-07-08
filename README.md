@@ -95,13 +95,13 @@ border-radius: 10px;
 `
     
 ## 5.CREATION D'APPARENCES DYNAMIQUES
-* ***Au survol***  : avec la propriété hover.
+* ***Au survol***  : avec la propriété hover. hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
  
 `a:hover
 {
 }
 `
-:hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
+
 * ***Active***: Quand le visiteur clique sur le lien.
  On peut par exemple changer la couleur de fond du lien lorsque l'on clique dessus :
 
