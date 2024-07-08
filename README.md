@@ -78,7 +78,7 @@ opacity: 0.6;
 ```
 
 ------   
-## 4.  Les bordures et les ombres
+## 4.  LES BORDURES ARRONDIES ET OMBRES
 Les différents types de bordures:
 * solid
 * dotted
@@ -97,7 +97,7 @@ h1
  border: 3px blue dashed;
 }
 ```
-### 4.1 bordures arroundies
+### 4.1 bordures arrondies
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
@@ -206,26 +206,26 @@ position: relatif;
 }
 ```
 
-## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
-Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
+## 8. SUPPERPOSITION DES ELEMENTS AVEC z-index
+Les éléments positionnés en . Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
 
 ```css
 element
-{
+ {
 position: absolute;
 right: 0px;
 bottom: 0px;
 z-index: 1;
-}
+ }
 element2
-{
+ {
 position: absolute;
 right: 30px;
 bottom: 30px;
 z-index: 2;
-}
+ }
 ```
     
 ----
