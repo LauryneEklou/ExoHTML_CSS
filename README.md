@@ -85,20 +85,22 @@ Les différents types de bordures:
  
  Ainsi, pour avoir une bordure bleue, en tirets, épaisse de 3 pixels autour de mes titres, je vais écrire :
 
- `h1
+```css
+h1
 {
  border: 3px blue dashed;
 }
-`
+```
 ### 4.1 bordures arroundies
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
-`p
+```css
+p
 {
 border-radius: 10px;
 }
-`
+```
     
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover. hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
