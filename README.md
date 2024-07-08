@@ -113,7 +113,7 @@ border-radius: 10px;
 * ***visited***: Quand le visiteur a déjà vu la page.concernée. Vous pouvez changer cette apparence avec :visited (qui signifie « visité »). En pratique, sur les liens consultés, on ne peut
  pas changer beaucoup de choses à part la couleur.
 
-  `a:visited
+  `a:visited \
   {
   color: #AAA;
   }
