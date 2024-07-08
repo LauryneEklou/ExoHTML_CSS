@@ -47,7 +47,8 @@ body
 {
 background-image: url("nom_de_image.png");
 background-repeat: no-repeat;
-}```
+}
+```
 
 ### 2.3. background-position : position du fond
 * ***top***: en haut 
@@ -227,12 +228,14 @@ z-index: 2;
 `html
 <td colspan="2">
  `
-Cette cellule est la fusion de deux cellules . 
+Cette cellule est la fusion de deux cellules .
+ 
 * ***rowspan***: pour fusionner les lignes d'une table .
  
 ***Exemple:***
-`<td rowspan"2">`
-
+`html
+<td rowspan"2">
+`
 Cette cellule est la fusion de deux lignes . 
 
  ## 10.LES FORMULAIRES
