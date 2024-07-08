@@ -184,7 +184,9 @@ Les éléments positionnés en absolu sont placés par-dessus le reste des élé
 ***Exemple d'utilisation***
 
 `element
+
  {
+ 
  position: absolute;
  right: 0px;
  bottom: 0px;
