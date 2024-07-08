@@ -72,7 +72,9 @@ Elle se fait avec la  propriété opacity.
  ***Exemple d'utilisation***
 
 ```css
-p{opacity: 0.6; }
+p{
+opacity: 0.6;
+}
 ```
 
 ------   
