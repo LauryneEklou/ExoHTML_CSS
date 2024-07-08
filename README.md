@@ -24,15 +24,16 @@ Il existe des options disponible pour le fond telles que:
  background-image: url("nom_de_image.png");
   background-attachment: fixed; 
  }
- `
+ ```
 * ***scroll***: l'image de fond défile avec le texte (par défaut).
  
-` body
+```css
+body
  {
  background-image: url("nom_de_image.png");
   background-attachment: scroll; 
  }
- `
+ ```
 ### 2.2. background-repeat : répétition du fond
 * ***no-repeat***: le fond ne sera pas répété. L'image sera donc unique sur la page.
 * ***repeat-x***: le fond sera répété uniquement sur la première ligne, horizontalement.
@@ -41,11 +42,12 @@ Il existe des options disponible pour le fond telles que:
  
 ***Exemple d'utilisation***
   
-` body
+```css
+body
 {
 background-image: url("nom_de_image.png");
 background-repeat: no-repeat;
-}`
+}```
 
 ### 2.3. background-position : position du fond
 * ***top***: en haut 
@@ -100,25 +102,29 @@ border-radius: 10px;
 ## 5.CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover. hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
  
-`a:hover
+```css
+a:hover
 {
 }
-`
+```
 
 * ***Active***: Quand le visiteur clique sur le lien.
  On peut par exemple changer la couleur de fond du lien lorsque l'on clique dessus :
 
-`a:active
+```css
+a:active
 {
  background-color: #FFCC66;
 }
-`
+```
 * ***visited***: Quand le visiteur a déjà vu la page.concernée. Vous pouvez changer cette apparence avec :visited (qui signifie « visité »). En pratique, sur les liens consultés, on ne peut
  pas changer beaucoup de choses à part la couleur.
-`a:visited
+```css
+a:visited
   {
   color: #AAA;
-  }`
+  }
+```
 
 ----
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
@@ -128,7 +134,8 @@ border-radius: 10px;
 a
  {
  display: block;
- }```
+ }
+```
 * ***display : inline;*** Eléments d'une ligne. Se placent les uns à côté des autres.
  
 ```css
@@ -139,75 +146,87 @@ nav, section
  ```
 * ***display : inline-block;*** Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
 
-`nav
- {
- display: inline-block;
- width: 150px;
- border: 1px solid black;
- vertical-align: top;
- }
- `
+```css
+nav
+{
+display: inline-block;
+width: 150px;
+border: 1px solid black;
+vertical-align: top;
+}
+```
 * ***display : none;*** Eléments non affichés.
  
-  `nav
+```css
+nav
 {
  display: inline-block;
 }
+```
 ----
 ## 7.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 7.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
 ***Exemple d'utilisation***
-`element
+```css
+element
 {
  position: absolute;
-}`
+}
+```
 ### 7.2  Le positionnement fixe
 Identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on
 descend plus bas dans la page.
 
 ***Exemple d'utilisation***
 
-`element
+```css
+element
 {
  position: fixed;
-}`
+}
+```
 ### 7.3  Le positionnement relatif 
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
 
-` element
+```css
+element
 {
 position: relatif;
 }
-`
+```
 
 ## 8.SUPPERPOSITION DES ELEMENTS AVEC z-index
 Les éléments positionnés en absolu sont placés par-dessus le reste des éléments de la page ! Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
 
-`element
- {
- position: absolute;
- right: 0px;
- bottom: 0px;
- z-index: 1;
-  }
-  element2
-  {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  z-index: 2;
-  }`
+```css
+element
+{
+position: absolute;
+right: 0px;
+bottom: 0px;
+z-index: 1;
+}
+element2
+{
+position: absolute;
+right: 30px;
+bottom: 30px;
+z-index: 2;
+}
+```
     
 ----
 ## 9.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
  
 ***Exemple:***
-`<td colspan="2">`
+`html
+<td colspan="2">
+ `
 Cette cellule est la fusion de deux cellules . 
 * ***rowspan***: pour fusionner les lignes d'une table .
  
