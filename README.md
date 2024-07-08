@@ -7,16 +7,18 @@ En CSS, si vous appliquez un style à une balise, toutes les balises qui se trou
 ## **2.APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
-` body
+```css
+ body
  {
 background-image: url("nom_de_image.png");
- }`
+ }```
 
 Il existe des options disponible pour le fond telles que:
 ### 2.1. background-attachment
 * ***fixed***: l'image de fond reste fixe.
  
-` body
+```css
+ body
  {
  background-image: url("nom_de_image.png");
   background-attachment: fixed; 
@@ -121,17 +123,19 @@ border-radius: 10px;
 ## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
  
-`a
+```css
+a
  {
  display: block;
- }`
+ }```
 * ***display : inline;*** Eléments d'une ligne. Se placent les uns à côté des autres.
  
-`nav, section
+```css
+nav, section
  {
  display: inline;
  }
- `
+ ```
 * ***display : inline-block;*** Eléments positionnés les uns à côté des autres  mais qui peuvent être redimensionnés.
 
 `nav
