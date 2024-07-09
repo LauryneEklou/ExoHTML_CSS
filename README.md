@@ -230,7 +230,7 @@ Nous pouvons transformer 9 éléments qui sont au départ alignés verticalement
 Si par exemeple vous avez un grid composé 6 éléments disposés en 2 lignes et en 3 colonnes et que vous voulez
 fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-dessous.
 
-![Texte alternatif](cours_CSS/azure.jpg)
+![Texte alternatif](zozor/iai.jpg)
 
 ## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 8.1 Le positionnement absolu
