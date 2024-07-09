@@ -232,6 +232,57 @@ fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-
 
 ![Texte alternatif](zozor/iai.jpg)
 
+***Voici le code pour l'obtenir***
+
+***code HTML***
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-auto-flow</title>
+    <link rel="stylesheet" href="grid-row-start.css"/>
+</head>
+<body>
+   <div class="grid-container">
+        <div class="grid-case-coller">1</div>
+        <div class="grid-case">2</div>
+        <div class="grid-case">3</div>
+        <div class="grid-case">4</div>
+        <div class="grid-case">5</div>
+   </div> 
+</body>
+</html>
+```
+
+***code CSS***
+
+```css
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap:10px;
+    grid-row-start:span 2;
+}
+.grid-case{
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+.grid-case-coller{
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+.grid-case-coller{
+    grid-row: span 2;
+    grid-column: 1;
+}
+```
+
 ## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 8.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
