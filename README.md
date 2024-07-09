@@ -347,6 +347,7 @@ Exemple sur les colonnes. Avec grid-auto-flow: column;
     border-radius: 10px;
   }
 ```
+-----
 ## 8.LES FLEX-BOX
 ### 8.1 LES FLEX-DIRECTIONS
 La propriété CSS flex-direction définit l'orientation principale des éléments flexibles dans un conteneur flex. Elle permet de déterminer si les éléments doivent être disposés horizontalement ou verticalement, et dans quel ordre.
