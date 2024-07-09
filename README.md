@@ -283,17 +283,70 @@ fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-
 }
 ```
 
-### Order de placement des grid
+### 7.2 Order de placement des grid
 
 La propriété CSS grid-auto-flow contrôle l'ordre dans lequel les éléments sont placés dans une grille, ainsi que la direction dans laquelle la grille s'agrandit lorsqu'il n'y a plus de place pour un nouvel élément dans la grille définie.
 
 Il existe 3:
 
-* row: Les éléments sont placés par lignes successives.
-* column: Les éléments sont placés par colonnes successives.
-* dense:  Les éléments sont placés en essayant de combler les trous créés par des éléments plus grands.
-* row dense: Les éléments sont placés par lignes en essayant de combler les trous.
-* column dense:  Les éléments sont placés par colonnes en essayant de combler les trous.
+* ***row:*** Les éléments sont placés par lignes successives (par défaut).
+* ***column:*** Les éléments sont placés par colonnes successives.
+* ***dense:***  Les éléments sont placés en essayant de combler les trous créés par des éléments plus grands.
+* ***row dense:*** Les éléments sont placés par lignes en essayant de combler les trous.
+* ***column dense:***  Les éléments sont placés par colonnes en essayant de combler les trous.
+
+***Exemple d'utilisation:***
+
+Exemple sur les colonnes. Avec grid-auto-flow: column;
+
+***Code HTML***
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de Grille CSS</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+  </div>
+</body>
+</html>
+```
+***code CSS***
+
+```CSS
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    grid-auto-flow: column;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+```
 
 ## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 8.1 Le positionnement absolu
