@@ -472,7 +472,7 @@ La propriété CSS flex-shrink définit la capacité d'un élément flexible à 
 -------
 ## 9.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 9.1 Le positionnement absolu
-il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
+Le positionnement absolu permet de positionner un élément par rapport à son conteneur positionné le plus proche. Un élément avec une position absolue est retiré du flux normal du document et peut être placé à des coordonnées spécifiques à l'intérieur de son conteneur.
 
 ***Exemple d'utilisation***
 ```css
