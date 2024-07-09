@@ -293,6 +293,7 @@ Il existe 3:
 * ***row dense:*** Les éléments sont placés par lignes en essayant de combler les trous.
 * ***column dense:***  Les éléments sont placés par colonnes en essayant de combler les trous.
 
+ 
 ***Exemple d'utilisation:***
 
 Exemple sur les colonnes. Avec grid-auto-flow: column;
@@ -470,6 +471,7 @@ La propriété CSS flex-shrink définit la capacité d'un élément flexible à 
 ## 9.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 9.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
+
 ***Exemple d'utilisation***
 ```css
 element
@@ -501,8 +503,7 @@ position: relatif;
 ```
 
 ## 10. SUPPERPOSITION DES ELEMENTS AVEC z-index
-Les éléments positionnés en . Par ailleurs, si vous placez deux
-éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
+Si vous placez deux éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
 
 ```css
