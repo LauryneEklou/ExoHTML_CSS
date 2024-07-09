@@ -347,9 +347,66 @@ Exemple sur les colonnes. Avec grid-auto-flow: column;
     border-radius: 10px;
   }
 ```
+## 8.LES FLEX-BOX
+### 8.1 LES FLEX-DIRECTIONS
+La propriété CSS flex-direction définit l'orientation principale des éléments flexibles dans un conteneur flex. Elle permet de déterminer si les éléments doivent être disposés horizontalement ou verticalement, et dans quel ordre.
 
-## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
-### 8.1 Le positionnement absolu
+* ***row (par défaut) :*** Les éléments flexibles sont disposés horizontalement de gauche à droite.
+* ***row-reverse :*** Les éléments flexibles sont disposés horizontalement de droite à gauche.
+* ***column :*** Les éléments flexibles sont disposés verticalement de haut en bas.
+* ***column-reverse :*** Les éléments flexibles sont disposés verticalement de bas en haut.
+
+***Exemple avec column-reverse***
+
+***code HTML***
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de column-reverse</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
+```
+
+***code CSS***
+
+```CSS
+.container {
+    display: flex;
+    flex-direction: column-reverse; /* Les éléments sont disposés de bas en haut */
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: lightgray;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+```
+
+## 9.LES POSITIONNEMENTS absolu, fixe, relatif 
+### 9.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
 ***Exemple d'utilisation***
 ```css
@@ -358,7 +415,7 @@ element
  position: absolute;
 }
 ```
-### 8.2  Le positionnement fixe
+### 9.2  Le positionnement fixe
 Identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on
 descend plus bas dans la page.
 
@@ -381,7 +438,7 @@ position: relatif;
 }
 ```
 
-## 9. SUPPERPOSITION DES ELEMENTS AVEC z-index
+## 10. SUPPERPOSITION DES ELEMENTS AVEC z-index
 Les éléments positionnés en . Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
@@ -404,7 +461,7 @@ z-index: 2;
 ```
     
 ----
-## 10.LES TABLES
+## 11.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
  
 ***Exemple:***
@@ -421,7 +478,7 @@ Cette cellule est la fusion de deux cellules .
 ```
 Cette cellule est la fusion de deux lignes . 
 
- ## 11.LES FORMULAIRES
+ ## 12.LES FORMULAIRES
 * les champs texte
  
 ```html
@@ -461,7 +518,7 @@ Cette cellule est la fusion de deux lignes .
   <input type="reset" value="Annuler" />
   ```
 -----
- ## 12-LES MEDIA
+ ## 13-LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
  vous pourrez augmenter la taille du texte, changer la couleur de fond, positionner différemment votre menu dans certaines
