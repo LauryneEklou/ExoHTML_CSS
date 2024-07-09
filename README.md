@@ -405,6 +405,69 @@ La propriété CSS flex-direction définit l'orientation principale des élémen
     font-size: 16px;
 }
 ```
+### 8.2 JUSTIFY-CONTENT
+* ***flex-start :*** Les éléments sont alignés au début de l'axe principal (par défaut).
+* ***flex-end :*** Les éléments sont alignés à la fin de l'axe principal.
+* ***center :*** Les éléments sont centrés le long de l'axe principal.
+* ***space-between :*** L'espace entre les éléments est égal, le premier élément est aligné au début et le dernier à la fin de l'axe principal.
+* ***space-around :*** L'espace entre les éléments est égal, avec la moitié de cet espace appliqué aux bords de chaque élément.
+* ***space-evenly :*** L'espace entre les éléments est égal, y compris aux bords du conteneur.
+  
+### 8.3 FLEX-SHRINK
+La propriété CSS flex-shrink définit la capacité d'un élément flexible à rétrécir si nécessaire. Elle est utilisée dans un conteneur flexible (flex container) pour spécifier comment l'espace est distribué entre les éléments lorsque l'espace disponible est insuffisant.
+
+***Exemple d'utilisation***
+
+***code HTML***
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex-shrink.css"/>
+    <title>flex-strink</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex-shrink1">1</div>
+        <div class="flex-item flex-shrink2">2</div>
+        <div class="flex-item flex-shrink3">3</div>
+    </div>
+</body>
+</html>
+```
+
+***code CSS***
+
+```CSS
+.flex-container{
+    display: flex;
+    width: 300px;
+    background-color: bisque;
+}
+.flex-item{
+    background-color: chocolate;
+    width:50%;
+    height: 50%;
+    display: flex;
+    margin: 5%;
+    color: white;
+    justify-content: center;
+}
+.flex-shrink1{
+    flex-shrink:1;
+
+}
+.flex-shrink2{
+    flex-shrink: 3;
+
+}
+.flex-shrink3{
+    flex-shrink: 3;
+}
+```
 
 ## 9.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 9.1 Le positionnement absolu
