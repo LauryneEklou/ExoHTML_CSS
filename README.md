@@ -97,7 +97,7 @@ h1
  border: 3px blue dashed;
 }
 ```
-### 4.1 bordures arrondies
+### 4.1 BORDURES ARRONDIES
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
@@ -173,8 +173,62 @@ nav
 }
 ```
 ----
-## 7.LES POSITIONNEMENTS absolu, fixe, relatif 
-### 7.1 Le positionnement absolu
+## 7.LES GRID
+CSS Grid Layout, souvent appelé simplement "Grid", est une technique de mise en page en CSS qui permet de créer des grilles bidimensionnelles. Il est conçu pour la mise en page des éléments dans des lignes et des colonnes, ce qui permet de créer des designs complexes de manière simple et flexible.
+***Exemple d'utilisation***
+Nous pouvons transformer 6 éléments qui sont au départ alignés verticalement en un grillage composé de 3 lignes et 3 colonnes:
+
+***code HTML***
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de Grille CSS</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+  </div>
+</body>
+</html>
+```
+
+***code CSS***
+
+```css
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+```
+
+## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
+### 8.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
 ***Exemple d'utilisation***
 ```css
@@ -183,7 +237,7 @@ element
  position: absolute;
 }
 ```
-### 7.2  Le positionnement fixe
+### 8.2  Le positionnement fixe
 Identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on
 descend plus bas dans la page.
 
@@ -195,7 +249,7 @@ element
  position: fixed;
 }
 ```
-### 7.3  Le positionnement relatif 
+### 8.3  Le positionnement relatif 
 Permet de décaler l'élément par rapport à sa position normale.
 ***Exemple d'utilisation***
 
@@ -206,7 +260,7 @@ position: relatif;
 }
 ```
 
-## 8. SUPPERPOSITION DES ELEMENTS AVEC z-index
+## 9. SUPPERPOSITION DES ELEMENTS AVEC z-index
 Les éléments positionnés en . Par ailleurs, si vous placez deux
 éléments en absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas, utilisez la propriété z-index pour indiquer quel élément doit apparaître au-dessus des autres.
 ***Exemple d'utilisation***
@@ -229,7 +283,7 @@ z-index: 2;
 ```
     
 ----
-## 9.LES TABLES
+## 10.LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
  
 ***Exemple:***
@@ -246,7 +300,7 @@ Cette cellule est la fusion de deux cellules .
 ```
 Cette cellule est la fusion de deux lignes . 
 
- ## 10.LES FORMULAIRES
+ ## 11.LES FORMULAIRES
 * les champs texte
  
 ```html
@@ -286,7 +340,7 @@ Cette cellule est la fusion de deux lignes .
   <input type="reset" value="Annuler" />
   ```
 -----
- ## 11-LES MEDIA
+ ## 12-LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
  vous pourrez augmenter la taille du texte, changer la couleur de fond, positionner différemment votre menu dans certaines
