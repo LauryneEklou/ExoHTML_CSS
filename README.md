@@ -176,7 +176,7 @@ nav
 ## 7.LES GRID
 CSS Grid Layout, souvent appelé simplement "Grid", est une technique de mise en page en CSS qui permet de créer des grilles bidimensionnelles. Il est conçu pour la mise en page des éléments dans des lignes et des colonnes, ce qui permet de créer des designs complexes de manière simple et flexible.
 ***Exemple d'utilisation***
-Nous pouvons transformer 6 éléments qui sont au départ alignés verticalement en un grillage composé de 3 lignes et 3 colonnes:
+Nous pouvons transformer 9 éléments qui sont au départ alignés verticalement en un grillage composé de 3 lignes et 3 colonnes:
 
 ***code HTML***
 
@@ -226,6 +226,11 @@ Nous pouvons transformer 6 éléments qui sont au départ alignés verticalement
     border-radius: 10px;
   }
 ```
+### 7.1 Fusion des éléments dans un grid
+Si par exemeple vous avez un grid composé 6 éléments disposés en 2 lignes et en 3 colonnes et que vous voulez
+fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-dessous.
+
+![Texte alternatif](cours_CSS/azure.jpg)
 
 ## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 8.1 Le positionnement absolu
