@@ -283,6 +283,18 @@ fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-
 }
 ```
 
+### Order de placement des grid
+
+La propriété CSS grid-auto-flow contrôle l'ordre dans lequel les éléments sont placés dans une grille, ainsi que la direction dans laquelle la grille s'agrandit lorsqu'il n'y a plus de place pour un nouvel élément dans la grille définie.
+
+Il existe 3:
+
+* row: Les éléments sont placés par lignes successives.
+* column: Les éléments sont placés par colonnes successives.
+* dense:  Les éléments sont placés en essayant de combler les trous créés par des éléments plus grands.
+* row dense: Les éléments sont placés par lignes en essayant de combler les trous.
+* column dense:  Les éléments sont placés par colonnes en essayant de combler les trous.
+
 ## 8.LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 8.1 Le positionnement absolu
 il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.).
