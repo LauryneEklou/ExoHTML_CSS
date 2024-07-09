@@ -1,4 +1,4 @@
-# **Cours HTML CSS**
+# **COURS HTML CSS**
 Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
 ## **1.CSS ET L'HERITAGE** 
 En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
@@ -78,7 +78,7 @@ opacity: 0.6;
 ```
 
 ------   
-## 4.  LES BORDURES ARRONDIES ET OMBRES
+## 4.  LES BORDURES ARRONDIES
 Les différents types de bordures:
 * solid
 * dotted
@@ -97,7 +97,7 @@ h1
  border: 3px blue dashed;
 }
 ```
-### 4.1 BORDURES ARRONDIES
+
  La propriété border-radius va nous permettre d'arrondir facilement les angles de n'importe quel élément. Il suffit d'indiquer
  la taille (« l'importance ») de l'arrondi en pixels.
  
@@ -175,7 +175,9 @@ nav
 ----
 ## 7.LES GRID
 CSS Grid Layout, souvent appelé simplement "Grid", est une technique de mise en page en CSS qui permet de créer des grilles bidimensionnelles. Il est conçu pour la mise en page des éléments dans des lignes et des colonnes, ce qui permet de créer des designs complexes de manière simple et flexible.
+
 ***Exemple d'utilisation***
+
 Nous pouvons transformer 9 éléments qui sont au départ alignés verticalement en un grillage composé de 3 lignes et 3 colonnes:
 
 ***code HTML***
