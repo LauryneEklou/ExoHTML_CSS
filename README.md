@@ -228,9 +228,7 @@ Nous pouvons transformer 9 éléments qui sont au départ alignés verticalement
 ```
 ### 7.1 Fusion des éléments dans un grid
 Si par exemeple vous avez un grid composé 6 éléments disposés en 2 lignes et en 3 colonnes et que vous voulez
-fusionner les 2 premières cases des 2 lignes, comme illustrer sur la figure ci-dessous.
-
-![Texte alternatif](zozor/iai.jpg)
+fusionner les 2 premières cases des 2 lignes.IL faut écrire:
 
 ***Voici le code pour l'obtenir***
 
