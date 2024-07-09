@@ -598,5 +598,22 @@ Cette cellule est la fusion de deux lignes .
  /* Rédigez vos propriétés CSS ici */
  }
  ```
- 
- 
+
+ ## 14.LES PSEUDO-CLASSES
+ Les pseudo-classes en CSS sont des mots-clés ajoutés aux sélecteurs qui spécifient un état spécial de l'élément sélectionné. Elles permettent de cibler des éléments 
+ en fonction de leur état dans le document. Les plus connues sont: hover, active, focus .
+
+* ***:hover***  Ciblé lorsqu'un utilisateur pointe un élément avec un périphérique de pointage, mais ne l'a pas encore activé.
+* ***:active***  Ciblé lorsqu'un utilisateur active un élément (par exemple, en cliquant dessus).
+* ***:focus***  Ciblé lorsqu'un élément a le focus (par exemple, lorsqu'un utilisateur clique sur un champ de formulaire).
+* ***:nth-child(n)***  Ciblé le n-ième enfant d'un parent.
+* ***:nth-of-type(n)***  Ciblé le n-ième enfant d'un certain type d'élément parmi ses frères et sœurs.
+* ***:first-child***  Ciblé le premier enfant d'un parent.
+* ***:last-child***  Ciblé le dernier enfant d'un parent.
+* ***:only-child***  Ciblé lorsqu'un élément est le seul enfant de son parent.
+* ***:not(selector)***  Ciblé tous les éléments qui ne correspondent pas au sélecteur.
+* ***:disabled***  Ciblé les éléments qui sont désactivés (comme les champs de formulaire désactivés).
+
+## 15.LES PSEUDO-ELEMENTS
+
+
