@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    /*   align-items: flex-end; */
+    width: 80%;
+    height: 80%;
+    background-color: lightgray;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+.flex-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}

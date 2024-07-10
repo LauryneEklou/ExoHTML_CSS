@@ -1,0 +1,20 @@
+.grow-container{
+    background-color:violet;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    container: center;
+}
+.grow-element1, .grow-element2, .grow-element3{
+    background-color: pink;
+    color: white;
+    justify-content: center;
+    width: 20%;
+    height: 40%;
+    margin: 5%;;
+}
+.grow-element1{
+    flex-grow: 1;
+    flex-grow: 2;
+    flex-grow: 3;
+}

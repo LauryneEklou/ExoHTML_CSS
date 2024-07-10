@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    width: 300px;
+    background-color: bisque;
+}
+.flex-item{
+    background-color: chocolate;
+    width:50%;
+    height: 50%;
+    display: flex;
+    margin: 5%;
+    color: white;
+    justify-content: center;
+}
+.flex-strink1{
+    flex-shrink:1;
+
+}
+.flex-strink2{
+    flex-shrink: 3;
+
+}
+.flex-strink3{
+    flex-shrink: 3;
+}
