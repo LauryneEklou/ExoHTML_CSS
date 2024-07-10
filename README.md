@@ -615,5 +615,10 @@ Cette cellule est la fusion de deux lignes .
 * ***:disabled***  Ciblé les éléments qui sont désactivés (comme les champs de formulaire désactivés).
 
 ## 15.LES PSEUDO-ELEMENTS
-
+* ***::before***   Insère du contenu avant le contenu d'un élément.
+* ***::after***   Insère du contenu après le contenu d'un élément.
+* ***::first-line***  Cible la première ligne d'un bloc de texte.
+* ***::first-letter***  Cible la première lettre d'un bloc de texte.
+* ***::selection***  Cible la partie du document sélectionnée par l'utilisateur.
+* ***::placeholder***  Cible le texte d'espace réservé (placeholder) d'un élément de formulaire.
 
