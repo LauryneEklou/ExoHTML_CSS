@@ -1,10 +1,10 @@
 # **COURS HTML CSS**
 Les notions suivantes m'ont permies de résoudre les différents exercices en HTML et CSS
-## **1.CSS ET L'HERITAGE** 
+## **1. CSS ET L'HERITAGE** 
 En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
 
 --------
-## **2.APPLIQUER UNE IMAGE DE FOND**
+## **2. APPLIQUER UNE IMAGE DE FOND**
 La propriété permettant d'indiquer une image de fond est background-image. Comme valeur, on doit renseigner url("nom_de_image.png").
 
 ```css
@@ -64,7 +64,7 @@ Il est possible de combiner ces mots. Par exemple, pour aligner une image en hau
 ```css
 background-position: top right;
 ```
-## 3.LA TRANSPARENCE:OPACITY
+## 3. LA TRANSPARENCE:OPACITY
 Elle se fait avec la  propriété opacity.
 1. ***Avec une valeur de 1***, l'élément sera totalement opaque : c'est le comportement par défaut.
 2. ***Avec une valeur de 0***, l'élément sera totalement transparent.
@@ -108,7 +108,7 @@ border-radius: 10px;
 }
 ```
     
-## 5.CREATION D'APPARENCES DYNAMIQUES
+## 5. CREATION D'APPARENCES DYNAMIQUES
 * ***Au survol***  : avec la propriété hover. hover signifie « survoler ». a:hover peut donc se traduire par : « Quand la souris est sur le lien ».
  
 ```css
@@ -136,7 +136,7 @@ a:visited
 ```
 
 ----
-## 6.TRANSFORMATION DES ELEMENTS AVEC DISPLAY
+## 6. TRANSFORMATION DES ELEMENTS AVEC DISPLAY
 * ***display : block;*** les liens vont se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de  modifier leurs dimensions !
  
 ```css
@@ -173,7 +173,7 @@ nav
 }
 ```
 ----
-## 7.LES GRID
+## 7. LES GRID
 CSS Grid Layout, souvent appelé simplement "Grid", est une technique de mise en page en CSS qui permet de créer des grilles bidimensionnelles. Il est conçu pour la mise en page des éléments dans des lignes et des colonnes, ce qui permet de créer des designs complexes de manière simple et flexible.
 
 ***Exemple d'utilisation***
@@ -470,7 +470,7 @@ La propriété CSS flex-shrink définit la capacité d'un élément flexible à 
 }
 ```
 -------
-## 9.LES POSITIONNEMENTS absolu, fixe, relatif 
+## 9. LES POSITIONNEMENTS absolu, fixe, relatif 
 ### 9.1 Le positionnement absolu
 Le positionnement absolu permet de positionner un élément par rapport à son conteneur positionné le plus proche. Un élément avec une position absolue est retiré du flux normal du document et peut être placé à des coordonnées spécifiques à l'intérieur de son conteneur.
 
@@ -526,7 +526,7 @@ z-index: 2;
 ```
     
 ----
-## 11.LES TABLES
+## 11. LES TABLES
 * ***Colspan***: pour fusionner les cellules d'une table
  
 ***Exemple:***
@@ -543,7 +543,7 @@ Cette cellule est la fusion de deux cellules .
 ```
 Cette cellule est la fusion de deux lignes . 
 
- ## 12.LES FORMULAIRES
+ ## 12. LES FORMULAIRES
 * les champs texte
  
 ```html
@@ -583,7 +583,7 @@ Cette cellule est la fusion de deux lignes .
   <input type="reset" value="Annuler" />
   ```
 -----
- ## 13-LES MEDIA
+ ## 13. LES MEDIA
  Ce sont des règles que l'on peut appliquer dans certaines conditions. Concrètement, vous allez pouvoir dire « Si la résolution de l'écran du visiteur est inférieure à
  tant, alors applique les propriétés CSS suivantes ». Cela vous permet de changer l'apparence du site dans certaines conditions :
  vous pourrez augmenter la taille du texte, changer la couleur de fond, positionner différemment votre menu dans certaines
@@ -599,7 +599,7 @@ Cette cellule est la fusion de deux lignes .
  }
  ```
 
- ## 14.LES PSEUDO-CLASSES
+ ## 14. LES PSEUDO-CLASSES
  Les pseudo-classes en CSS sont des mots-clés ajoutés aux sélecteurs qui spécifient un état spécial de l'élément sélectionné. Elles permettent de cibler des éléments 
  en fonction de leur état dans le document. Les plus connues sont: hover, active, focus .
 
